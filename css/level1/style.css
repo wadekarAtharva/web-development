@@ -1,0 +1,63 @@
+/* 
+
+*{
+    universal Selector 
+} 
+
+*/
+
+body{
+    background-color: #000;
+}
+
+h1{
+    color: yellowgreen;
+    text-align: center;
+
+}
+
+p{
+    color: rgb(34, 0, 255);
+    text-align: center;
+}
+
+button{
+    color: rgb(7, 40, 27);
+    background-color: #d87171;
+}
+
+/* id Selector */
+#heading2{
+    color: rgb(98, 58, 10);
+    text-decoration: underline;
+
+
+}
+
+/* class Selector */
+.para{
+    color: aquamarine;
+}
+
+#box{
+    background-color: blue;
+}
+
+
+/* text align -- center/left/right 
+                NEW=start,end
+                left=end
+                right=start
+*/
+
+/* text-decoration:underline/overline/line-through */
+
+/* font weight :normal/bold/bolder/lighter 100-900*/
+
+/* font family- type of stylefont*/
+
+/* font-size: 2px */
+
+/* line-height:2px */
+
+/* text-transform: uupercase/lowercase/capitalize/none*/

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            color: aliceblue;
+        }
+
+
+
+        #navbar {
+            height: 60px;
+            background-color: black;
+            border: 3px solid white;
+            padding: 2px;
+        }
+
+        a {
+            font-size: 25px;
+            color: orange;
+            margin-right: 200px;
+            text-decoration: none;
+        }
+
+        button {
+            background-color: orange;
+        }
+        #content{
+            height: 650px;
+        }
+        .contentBox{
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+            border: 2px solid black;
+            display: inline-block;
+        }
+        footer{
+            background-color: black;
+            color:white ;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <a href="https://www.amazon.in/">amazon.in</a>
+            <a href="#">Account</a>
+            <a href="#">My Cart</a>
+            <a href="#">Contact Us</a>
+
+            <input type="text" placeholder="Search Product">
+            <button>Search</button>
+
+
+        </nav>
+    </header>
+
+    <div id="content">
+        <div class="contentBox" style="background-color: rgba(255, 0, 0, 0.5);"></div>
+        <div class="contentBox" style="background-color: rgba(0, 255, 0, 0.5);"></div>
+        <div class="contentBox" style="background-color: rgba(0, 0, 255, 0.5);"></div>
+    </div>
+    <footer>Thankyou for visiting</footer>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <style>
+        #btn {
+            border: 2px solid black;
+            background: red;
+            border-radius: 8px;
+            padding: 10px 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>This is the Paragraph</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veniam similique velit, laborum
+            deserunt et? Voluptatem, ratione corrupti? Cum qui atque tempora facere hic asperiores, veritatis laborum,
+            eligendi eaque voluptas, dolore illum voluptatum cupiditate quibusdam. Quis libero blanditiis, adipisci
+            itaque vero, consequuntur, accusantium labore officia incidunt impedit illo. Architecto officia distinctio
+            amet cumque voluptates. Est, perferendis. Nobis ullam sed assumenda corrupti autem, animi perferendis fugit
+            totam debitis eum iure expedita blanditiis optio rerum itaque. Qui officia nobis non sed, earum labore ipsa
+            laudantium nulla, illum a impedit aspernatur laborum, maxime cupiditate laboriosam porro rerum recusandae
+            atque? Rerum similique, nulla provident error velit at quaerat maiores quisquam voluptatibus, voluptates
+            asperiores. Nostrum itaque, obcaecati, voluptates in et ex dolorum blanditiis maiores laboriosam quos aut
+            adipisci delectus amet harum aliquam molestias maxime nobis sequi reiciendis veniam, aliquid consequatur
+            recusandae dignissimos. Illo fuga consequatur maxime cupiditate soluta exercitationem veritatis, ratione
+            cumque recusandae suscipit eveniet quos animi consectetur praesentium? Nemo, tenetur harum eius est totam
+            dolores eum sunt quis deserunt illo ad omnis veniam laboriosam voluptas earum quasi. Assumenda eius
+            voluptate ipsam nisi soluta, quisquam sit necessitatibus voluptas consequuntur error, iure ab sint quae quis
+            dicta id exercitationem, tempora eos officiis fugit at repudiandae voluptatibus.</p>
+    </div>
+    <button id="btn" onclick="togglehide()">Hide/Show</button>
+    <script>
+        function togglehide() {
+            let btn = document.getElementById('btn');
+            let para = document.getElementById('para');
+            if (para.style.display != 'none') {
+                para.style.display = 'none';
+            }
+            else {
+                para.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+</html>

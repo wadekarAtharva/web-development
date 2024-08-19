@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS transition property</title>
+    <style>
+        body{
+            background-color: black;
+        }
+ h3{
+color: aliceblue;
+}
+#box{
+    color: white;
+    background: rgb(233, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition: all 1s ease-in-out;
+}
+#box:hover{
+    background: rgb(31, 189, 10);
+    font-size: 25px;
+    height: 400px;
+    width: 400px;
+    border-radius: 100px;
+}
+    </style>
+</head>
+<body>
+    <div class="contianer">
+        <h3>CSS Property</h3>
+        <div id="box">
+            this is a box
+        </div>
+    </div>
+    
+</body>
+</html>

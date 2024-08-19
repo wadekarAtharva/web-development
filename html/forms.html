@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <!-- tags -->
+    <!-- <form action=""></form> --to create html form --> 
+    <!-- <input type="text"> many forms -->
+    <!-- <label for=""></label> -->
+
+    <!-- id of input and for of label should be same -->
+    <!-- palceholder ---for giving hint to users
+     -->
+
+     <!-- select -- -->
+     <!-- option  -->
+     <!-- button -->
+     <!-- textArea -->
+     <!-- fieldset --groups the related field  -->
+     <!-- legend --gives caption to fieldset -->
+    <form action="">
+        <label for="email">Enter your email</label>
+        <input type="text" id="email" placeholder="Enter your enail ID">
+        <br>
+        <br>
+        <label for="password">Enter Password</label>
+        <input type="text" id="password" placeholder="Enter Password">
+        <br>
+        <br>
+
+    <input type="submit" value="Click Here">
+    </form>
+
+
+    <hr>
+    <hr>
+
+    <form action="">
+        <fieldset>
+            <legend>HTML form Dummy</legend>
+            <label for="datepicker">Choose Date</label>
+        <input type="date" name="" id="datepicker">
+        <br>
+        <br>
+        <label for="selector1">Choose Dishes</label>
+        <select name="dishes" id="selector1" >
+            <option value="maggie">Maggi</option>
+            <option value="kurkure">Kurkure</option>
+            <option value="chips">Chips</option>
+
+        </select>
+        <br>
+        <button>Main hoon button</button>
+        <br>
+        <textarea name="textArea1" id="textArea1" cols="30" rows="10" placeholder="Enter text here"></textarea>
+        
+        </fieldset>
+    </form>
+
+    <!-- 
+        Here are the different input types you can use in HTML:
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+Tip: The default value of the typ
+     -->
+    <hr>
+    <hr>
+    <form>
+        <!-- in radio button you have to keep same name attribute -->
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+      </form>
+
+      <form action="">
+        <label for="checkbox1">English:</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1">
+
+        <label for="checkbox2">Marathi:</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2">
+
+        <br>
+        <label for="fileSelect1">Upload</label>
+        <input type="file" name="fileSelect1" id="fileSelect1">
+      
+        <br>
+
+        <input type="image" name="imagebutton1" id="imagebutton1" alt="click here" src="arrow.webp" width="100px">
+
+        <br>
+        <label for="password1">Enter Password</label>
+        <input type="password" name="password1" id="password1">
+    </form>
+</body>
+</html>

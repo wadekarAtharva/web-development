@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        /* position: static/relative/absolute/fixed */
+        /* static--> */
+        div{
+            height:100px ;
+            width: 100px;
+            background-color: aqua;
+            border: 2px solid black ;
+            display: inline-block;
+        }
+
+
+        
+        #box1{
+            position: static; 
+            /* default */
+
+            /* relative: change from original place */
+            /* absolute : should be non-static 
+                        change takes place according to parent class 
+            
+            */
+
+            /* fixed: positioned according toto browser */
+           
+            /* sticky: positioned when noticed or comes to its position givens */
+
+            /* z-index: -1 -->0 ke niche
+                        0  -->-1 ke upar
+                        1  -->0 ke upar
+            
+            
+            */
+                        
+        }
+        /* background size and img */
+
+        /* background-size: cover/contain/auto*/
+        
+
+        #box2{
+            background-image: url(/html/resume\ passport\ size.png);
+            background-size: cover;
+
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Position Playground</h1>
+    
+        <div id="box1">box1</div>
+        <div id="box2">box2</div>
+        <div id="box3">box3</div>
+        <div id="box4">box4</div>
+
+        <div>
+
+        </div>
+    
+</body>
+</html>
